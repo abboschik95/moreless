@@ -74,7 +74,7 @@ hold.addEventListener('click', function () {
       scores[activePlayer];
 
     //Check winner
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       //Finish game
       playing = false;
       document
